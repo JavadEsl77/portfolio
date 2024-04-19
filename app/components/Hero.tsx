@@ -3,6 +3,7 @@ import React from 'react';
 import {motion} from "framer-motion"
 import {HERO_CONTENT} from "@/app/constants";
 import profilePic from "@/public/assets/kevinRushProfile.png"
+import profileImage from "@/public/assets/profile.jpg"
 
 const container = (delay: number) => ({
     hidden: {x: -100, opacity: 0},
@@ -37,10 +38,11 @@ const Hero = () => {
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center">
                         <motion.img
+                            className={"rounded-2xl"}
                             initial={{x: 100, opacity: 0}}
                             animate={{x:0 , opacity:1}}
                             transition={{duration:1 , delay:1.2}}
-                            src={profilePic.src} alt="profile"/>
+                            src={profileImage.src} alt="profile"/>
                     </div>
                 </div>
             </div>
