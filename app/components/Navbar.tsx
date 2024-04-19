@@ -6,7 +6,7 @@ import {GiReactor} from "react-icons/gi";
 
 const Navbar = () => {
     return (
-        <nav className={"mb-20 flex items-center justify-between py-6"}>
+        <nav className={"mb-10 flex items-center justify-between py-6"}>
             <div className={"flex flex-shrink-0 items-center"}>
                 <GiReactor  className={"mx-2 w-10 h-10"}/>
             </div>
