@@ -3,20 +3,12 @@ import React from 'react';
 import {motion} from "framer-motion"
 import {RiReactjsLine} from "react-icons/ri";
 import {TbBrandNextjs} from "react-icons/tb";
-import {SiMongodb} from "react-icons/si";
-import {DiRedis} from "react-icons/di";
-import {FaNodeJs} from "react-icons/fa";
-import {BiLogoPostgresql} from "react-icons/bi";
 import { SiMui } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { TbBrandCypress } from "react-icons/tb";
 import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiRedux } from "react-icons/si";
-
-
-
-
 
 
 const iconVariants = (duration: any) => ({

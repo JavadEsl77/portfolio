@@ -1,7 +1,7 @@
-import project3 from "../../public/assets/projects/project-3.jpg";
 import FlowBoard from "../../public/assets/projects/FlowBoard.jpg";
 import Datami from "../../public/assets/projects/Datami.jpg";
 import AsoCard from "../../public/assets/projects/AsoCard.jpg";
+import portfolio from "../../public/assets/projects/portfolio.jpg";
 
 export const HERO_CONTENT = `I began programming in 2015 and have 7 years of programming experience. Currently, I work as a front-end programmer. Additionally, I have a strong interest in design, and over the past year, I've successfully acquired front-end concepts and the ability to create dynamic user interfaces for web applications.`;
 
@@ -55,7 +55,7 @@ export const PROJECTS = [
     },
     {
         title: "Portfolio",
-        image: project3,
+        image: portfolio,
         description:
             "A personal portfolio website showcasing projects, skills, and contact information.",
         technologies: ["Next.js", "React", "Tailwind", "FarmerMotion"],
@@ -71,6 +71,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
     address: "sabalan Jonobi, Tehran, Sablan",
-    phoneNo: "+989393155090",
+    phoneNo: "+98",
     email: "javades755@gmail.com",
 };

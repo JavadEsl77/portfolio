@@ -2,7 +2,6 @@
 import React from 'react';
 import {motion} from "framer-motion"
 import {HERO_CONTENT} from "@/app/constants";
-import profilePic from "@/public/assets/kevinRushProfile.png"
 import profileImage from "@/public/assets/profile.jpg"
 
 const container = (delay: number) => ({
