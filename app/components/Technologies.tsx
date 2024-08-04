@@ -11,6 +11,7 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { SiRedux } from "react-icons/si";
 import { SiPwa } from "react-icons/si";
 import { SiPusher } from "react-icons/si";
+import { SiReactquery } from "react-icons/si";
 
 
 const iconVariants = (duration: any) => ({
@@ -110,6 +111,14 @@ const Technologies = () => {
                     animate={"animate"}
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <TbBrandCypress className={'text-7xl'}/>
+                </motion.div>
+
+                <motion.div
+                    variants={iconVariants(3)}
+                    initial={"initial"}
+                    animate={"animate"}
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiReactquery className={'text-7xl text-red-500'}/>
                 </motion.div>
 
                 <motion.div
