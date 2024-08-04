@@ -9,6 +9,7 @@ import { TbBrandCypress } from "react-icons/tb";
 import { RiJavascriptFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiRedux } from "react-icons/si";
+import { SiPwa } from "react-icons/si";
 
 
 const iconVariants = (duration: any) => ({
@@ -62,6 +63,16 @@ const Technologies = () => {
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <RiReactjsLine className={'text-7xl text-cyan-400'}/>
                 </motion.div>
+
+
+                <motion.div
+                    variants={iconVariants(1.5)}
+                    initial={"initial"}
+                    animate={"animate"}
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiPwa className={'text-7xl text-purple-700'}/>
+                </motion.div>
+
                 <motion.div
                     variants={iconVariants(4.5)}
                     initial={"initial"}
